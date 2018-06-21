@@ -15,3 +15,6 @@ def hello(request):
 
 def git_guide(request):
     return render(request, 'blog/git_usage.html', {})
+
+def scrapy_guide(request):
+    return render(request, 'blog/scrapy-kullanimi.html', {})
